@@ -1,0 +1,69 @@
+.road {
+  background-color: blue;
+  margin: 0 auto;
+  width: 400px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.road .lane1 {
+  width: 33.33%;
+  height: 500px;
+  border-right: 2px solid white;
+}
+
+.road .lane1 .autocar1 {
+  height: 105px;
+  width: 115px;
+  position: relative;
+  top: 0px;
+  left: 10px;
+}
+
+.road .lane2 {
+  width: 33.33%;
+  height: 500px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.road .lane2 .playercar {
+  height: 120px;
+  width: 60px;
+  position: relative;
+  top: 380px;
+  left: 32px;
+}
+
+.road .lane2 .autocar2 {
+  height: 105px;
+  width: 115px;
+  position: relative;
+  top: -110px;
+  left: 10px;
+}
+
+.road .lane3 {
+  width: 33.33%;
+  height: 500px;
+  border-left: 2px solid white;
+}
+
+.road .lane3 .autocar3 {
+  height: 105px;
+  width: 115px;
+  position: relative;
+  top: 0px;
+  left: 7px;
+}
+
+.autocar1 {
+  height: 105px;
+  width: 115px;
+  position: relative;
+  top: 0px;
+  left: 10px;
+}

@@ -1,0 +1,107 @@
+$black : #000;
+
+// .container{
+//     margin: 0 auto;
+//     width: 1200px;
+// }
+
+
+
+.road{
+    background-color: blue;
+    margin: 0 auto;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    position: relative;
+
+    // lane{
+    //     width: 33.33%;
+    // }
+
+    .lane1{
+        width: 33.33%;
+        height: 500px;
+        border-right: 2px solid white;
+
+        .autocar1{
+            height: 105px;
+            width: 115px;
+            position: relative;
+            top: 0px;
+            left: 10px;
+        }
+        
+        
+
+        
+    }
+    .lane2{
+        width: 33.33%;
+        height: 500px;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        .playercar{
+            height: 120px;
+            width: 60px;
+            position: relative;
+            top: 380px;
+            left: 32px;
+        }
+        .autocar2{
+            height: 105px;
+            width: 115px;
+            position: relative;
+            top: -110px;
+            left: 10px;
+        }
+        
+        
+    }
+    .lane3{
+        width: 33.33%;
+        height: 500px;
+        border-left: 2px solid white;
+
+        .autocar3{
+            height: 105px;
+            width: 115px;
+            position: relative;
+            top: 0px;
+            left: 7px;
+        }
+        
+    }   
+
+}
+
+
+
+.autocar1{
+    height: 105px;
+    width: 115px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+
+// .clrdblock{
+   
+
+//     height: 60px;
+//     width: 40px;
+//     background-color: black;
+//     position: absolute;
+//     top: 440px;
+//     left: 652px;
+// }
+
+// .cars{
+//     height: 100px;
+//     width: 150px;
+//     position: absolute;
+//     top: 400px;
+//     left: 600px; 
+// }
+
+
